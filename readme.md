@@ -778,8 +778,9 @@ B.Tech in Information Technology
 
 Interested in Machine Learning, Generative AI, RAG Systems, AI Agents, and Full-Stack Development.
 
-- GitHub: `<YOUR_GITHUB_PROFILE_URL>`
-- LinkedIn: `<YOUR_LINKEDIN_PROFILE_URL>`
+- GitHub: `https://github.com/GeekyAdnan125/`
+- LinkedIn: `https://www.linkedin.com/in/adnan-alam-6a3351284/`
+
 
 ---
 
