@@ -1,0 +1,476 @@
+{
+    "rows": 1000,
+    "columns": 19,
+    "duplicate_rows": 0,
+    "missing_cells": 0,
+    "missing_percentage": 0.0,
+    "numeric_columns": [
+        "price",
+        "rating",
+        "review_count",
+        "stock",
+        "warranty_months"
+    ],
+    "categorical_columns": [
+        "product_id",
+        "product_name",
+        "brand",
+        "category",
+        "product_type",
+        "color",
+        "size",
+        "material",
+        "currency",
+        "description",
+        "features",
+        "target_customer",
+        "use_case",
+        "seller"
+    ],
+    "column_details": {
+        "product_id": {
+            "data_type": "str",
+            "missing_values": 0,
+            "missing_percentage": 0.0,
+            "unique_values": 1000,
+            "top_values": [
+                {
+                    "value": "P0001",
+                    "count": 1
+                },
+                {
+                    "value": "P0002",
+                    "count": 1
+                },
+                {
+                    "value": "P0003",
+                    "count": 1
+                },
+                {
+                    "value": "P0004",
+                    "count": 1
+                },
+                {
+                    "value": "P0005",
+                    "count": 1
+                }
+            ]
+        },
+        "product_name": {
+            "data_type": "str",
+            "missing_values": 0,
+            "missing_percentage": 0.0,
+            "unique_values": 995,
+            "top_values": [
+                {
+                    "value": "Pulse Advanced Hand Sanitizer",
+                    "count": 2
+                },
+                {
+                    "value": "SmartLine Comfort Hot Water Bottle",
+                    "count": 2
+                },
+                {
+                    "value": "Vega Smart Desk Calendar",
+                    "count": 2
+                },
+                {
+                    "value": "Vertex Ultra Sneakers",
+                    "count": 2
+                },
+                {
+                    "value": "TechPro Smart Monitor",
+                    "count": 2
+                }
+            ]
+        },
+        "brand": {
+            "data_type": "str",
+            "missing_values": 0,
+            "missing_percentage": 0.0,
+            "unique_values": 20,
+            "top_values": [
+                {
+                    "value": "BrightLife",
+                    "count": 65
+                },
+                {
+                    "value": "ProMax",
+                    "count": 63
+                },
+                {
+                    "value": "Aero",
+                    "count": 63
+                },
+                {
+                    "value": "Prime",
+                    "count": 60
+                },
+                {
+                    "value": "DailyChoice",
+                    "count": 59
+                }
+            ]
+        },
+        "category": {
+            "data_type": "str",
+            "missing_values": 0,
+            "missing_percentage": 0.0,
+            "unique_values": 20,
+            "top_values": [
+                {
+                    "value": "Furniture",
+                    "count": 61
+                },
+                {
+                    "value": "Office Supplies",
+                    "count": 58
+                },
+                {
+                    "value": "Jewelry",
+                    "count": 58
+                },
+                {
+                    "value": "Home Appliances",
+                    "count": 57
+                },
+                {
+                    "value": "Personal Care",
+                    "count": 57
+                }
+            ]
+        },
+        "product_type": {
+            "data_type": "str",
+            "missing_values": 0,
+            "missing_percentage": 0.0,
+            "unique_values": 191,
+            "top_values": [
+                {
+                    "value": "Ring",
+                    "count": 15
+                },
+                {
+                    "value": "Hand Sanitizer",
+                    "count": 13
+                },
+                {
+                    "value": "Sneakers",
+                    "count": 13
+                },
+                {
+                    "value": "TV Unit",
+                    "count": 11
+                },
+                {
+                    "value": "Garden Hose",
+                    "count": 10
+                }
+            ]
+        },
+        "color": {
+            "data_type": "str",
+            "missing_values": 0,
+            "missing_percentage": 0.0,
+            "unique_values": 15,
+            "top_values": [
+                {
+                    "value": "Black",
+                    "count": 77
+                },
+                {
+                    "value": "Pink",
+                    "count": 77
+                },
+                {
+                    "value": "Yellow",
+                    "count": 74
+                },
+                {
+                    "value": "Grey",
+                    "count": 73
+                },
+                {
+                    "value": "Green",
+                    "count": 73
+                }
+            ]
+        },
+        "size": {
+            "data_type": "str",
+            "missing_values": 0,
+            "missing_percentage": 0.0,
+            "unique_values": 10,
+            "top_values": [
+                {
+                    "value": "S",
+                    "count": 129
+                },
+                {
+                    "value": "Small",
+                    "count": 116
+                },
+                {
+                    "value": "XXL",
+                    "count": 107
+                },
+                {
+                    "value": "M",
+                    "count": 103
+                },
+                {
+                    "value": "One Size",
+                    "count": 98
+                }
+            ]
+        },
+        "material": {
+            "data_type": "str",
+            "missing_values": 0,
+            "missing_percentage": 0.0,
+            "unique_values": 13,
+            "top_values": [
+                {
+                    "value": "Plastic",
+                    "count": 97
+                },
+                {
+                    "value": "Mixed Material",
+                    "count": 86
+                },
+                {
+                    "value": "Stainless Steel",
+                    "count": 81
+                },
+                {
+                    "value": "Aluminium",
+                    "count": 81
+                },
+                {
+                    "value": "Leather",
+                    "count": 80
+                }
+            ]
+        },
+        "price": {
+            "data_type": "int64",
+            "missing_values": 0,
+            "missing_percentage": 0.0,
+            "unique_values": 429,
+            "statistics": {
+                "mean": 12392.1,
+                "median": 4824.0,
+                "minimum": 99.0,
+                "maximum": 99899.0,
+                "standard_deviation": 18649.723
+            }
+        },
+        "currency": {
+            "data_type": "str",
+            "missing_values": 0,
+            "missing_percentage": 0.0,
+            "unique_values": 1,
+            "top_values": [
+                {
+                    "value": "INR",
+                    "count": 1000
+                }
+            ]
+        },
+        "rating": {
+            "data_type": "float64",
+            "missing_values": 0,
+            "missing_percentage": 0.0,
+            "unique_values": 21,
+            "statistics": {
+                "mean": 4.017,
+                "median": 4.0,
+                "minimum": 3.0,
+                "maximum": 5.0,
+                "standard_deviation": 0.574
+            }
+        },
+        "review_count": {
+            "data_type": "int64",
+            "missing_values": 0,
+            "missing_percentage": 0.0,
+            "unique_values": 816,
+            "statistics": {
+                "mean": 1226.671,
+                "median": 1176.0,
+                "minimum": 10.0,
+                "maximum": 2498.0,
+                "standard_deviation": 727.424
+            }
+        },
+        "stock": {
+            "data_type": "int64",
+            "missing_values": 0,
+            "missing_percentage": 0.0,
+            "unique_values": 151,
+            "statistics": {
+                "mean": 74.634,
+                "median": 74.0,
+                "minimum": 0.0,
+                "maximum": 150.0,
+                "standard_deviation": 43.031
+            }
+        },
+        "description": {
+            "data_type": "str",
+            "missing_values": 0,
+            "missing_percentage": 0.0,
+            "unique_values": 1000,
+            "top_values": [
+                {
+                    "value": "Nexon Smart Refrigerator is a refrigerator designed for portable and user friendly. It features nylon construction and a blue finish. It is suitable for everyday shopping, gifting, or regular personal use.",
+                    "count": 1
+                },
+                {
+                    "value": "EcoPlus Smart Digital Thermometer is a digital thermometer designed for compact and easy to carry. It features wood construction and a yellow finish. It is suitable for everyday shopping, gifting, or regular personal use.",
+                    "count": 1
+                },
+                {
+                    "value": "Pulse Premium Bed is a bed designed for modern design with practical features. It features plastic construction and a brown finish. It is suitable for everyday shopping, gifting, or regular personal use.",
+                    "count": 1
+                },
+                {
+                    "value": "Elite Plus Study Lamp is a study lamp designed for comfortable for everyday use. It features mesh construction and a orange finish. It is suitable for everyday shopping, gifting, or regular personal use.",
+                    "count": 1
+                },
+                {
+                    "value": "EverFit Essential Skipping Rope is a skipping rope designed for designed for long-term use. It features nylon construction and a grey finish. It is suitable for everyday shopping, gifting, or regular personal use.",
+                    "count": 1
+                }
+            ]
+        },
+        "features": {
+            "data_type": "str",
+            "missing_values": 0,
+            "missing_percentage": 0.0,
+            "unique_values": 12,
+            "top_values": [
+                {
+                    "value": "energy efficient and reliable",
+                    "count": 91
+                },
+                {
+                    "value": "breathable and comfortable",
+                    "count": 91
+                },
+                {
+                    "value": "compact and easy to carry",
+                    "count": 90
+                },
+                {
+                    "value": "portable and user friendly",
+                    "count": 88
+                },
+                {
+                    "value": "comfortable for everyday use",
+                    "count": 87
+                }
+            ]
+        },
+        "target_customer": {
+            "data_type": "str",
+            "missing_values": 0,
+            "missing_percentage": 0.0,
+            "unique_values": 8,
+            "top_values": [
+                {
+                    "value": "General",
+                    "count": 146
+                },
+                {
+                    "value": "Women",
+                    "count": 141
+                },
+                {
+                    "value": "Unisex",
+                    "count": 135
+                },
+                {
+                    "value": "Professionals",
+                    "count": 123
+                },
+                {
+                    "value": "Men",
+                    "count": 121
+                }
+            ]
+        },
+        "use_case": {
+            "data_type": "str",
+            "missing_values": 0,
+            "missing_percentage": 0.0,
+            "unique_values": 10,
+            "top_values": [
+                {
+                    "value": "College",
+                    "count": 113
+                },
+                {
+                    "value": "Outdoor",
+                    "count": 107
+                },
+                {
+                    "value": "Personal Care",
+                    "count": 106
+                },
+                {
+                    "value": "Home",
+                    "count": 104
+                },
+                {
+                    "value": "Study",
+                    "count": 102
+                }
+            ]
+        },
+        "warranty_months": {
+            "data_type": "int64",
+            "missing_values": 0,
+            "missing_percentage": 0.0,
+            "unique_values": 5,
+            "statistics": {
+                "mean": 8.985,
+                "median": 6.0,
+                "minimum": 0.0,
+                "maximum": 24.0,
+                "standard_deviation": 8.322
+            }
+        },
+        "seller": {
+            "data_type": "str",
+            "missing_values": 0,
+            "missing_percentage": 0.0,
+            "unique_values": 5,
+            "top_values": [
+                {
+                    "value": "MegaStore",
+                    "count": 205
+                },
+                {
+                    "value": "DirectSeller",
+                    "count": 203
+                },
+                {
+                    "value": "PrimeMart",
+                    "count": 203
+                },
+                {
+                    "value": "ShopKart",
+                    "count": 199
+                },
+                {
+                    "value": "RetailHub",
+                    "count": 190
+                }
+            ]
+        }
+    },
+    "recommendations": [
+        "Column 'currency' has only one unique non-missing value. Consider excluding it from model training."
+    ]
+}

@@ -1,0 +1,36 @@
+=======================================================
+AI AUTOML SYSTEM - DATA PROFILE REPORT
+=======================================================
+Total rows: 8
+Total columns: 5
+Duplicate rows: 1
+Missing cells: 3
+
+COLUMN DETAILS
+-------------------------------------------------------
+Column: student
+  Data type: str
+  Missing values: 0
+  Unique values: 7
+
+Column: age
+  Data type: int64
+  Missing values: 0
+  Unique values: 3
+
+Column: study_hours
+  Data type: float64
+  Missing values: 1
+  Unique values: 6
+
+Column: attendance
+  Data type: float64
+  Missing values: 1
+  Unique values: 6
+
+Column: marks
+  Data type: float64
+  Missing values: 1
+  Unique values: 6
+
+=======================================================

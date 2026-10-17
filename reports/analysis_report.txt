@@ -1,0 +1,240 @@
+============================================================
+AI AUTOML SYSTEM - DATA ANALYSIS REPORT
+============================================================
+Rows: 1000
+Columns: 19
+Duplicate rows: 0
+Missing cells: 0
+Missing data: 0.0%
+
+COLUMN ANALYSIS
+------------------------------------------------------------
+
+Column: product_id
+  Type: str
+  Missing: 0
+  Missing percentage: 0.0%
+  Unique values: 1000
+  Most frequent values:
+    P0001: 1
+    P0002: 1
+    P0003: 1
+    P0004: 1
+    P0005: 1
+
+Column: product_name
+  Type: str
+  Missing: 0
+  Missing percentage: 0.0%
+  Unique values: 995
+  Most frequent values:
+    Pulse Advanced Hand Sanitizer: 2
+    SmartLine Comfort Hot Water Bottle: 2
+    Vega Smart Desk Calendar: 2
+    Vertex Ultra Sneakers: 2
+    TechPro Smart Monitor: 2
+
+Column: brand
+  Type: str
+  Missing: 0
+  Missing percentage: 0.0%
+  Unique values: 20
+  Most frequent values:
+    BrightLife: 65
+    ProMax: 63
+    Aero: 63
+    Prime: 60
+    DailyChoice: 59
+
+Column: category
+  Type: str
+  Missing: 0
+  Missing percentage: 0.0%
+  Unique values: 20
+  Most frequent values:
+    Furniture: 61
+    Office Supplies: 58
+    Jewelry: 58
+    Home Appliances: 57
+    Personal Care: 57
+
+Column: product_type
+  Type: str
+  Missing: 0
+  Missing percentage: 0.0%
+  Unique values: 191
+  Most frequent values:
+    Ring: 15
+    Hand Sanitizer: 13
+    Sneakers: 13
+    TV Unit: 11
+    Garden Hose: 10
+
+Column: color
+  Type: str
+  Missing: 0
+  Missing percentage: 0.0%
+  Unique values: 15
+  Most frequent values:
+    Black: 77
+    Pink: 77
+    Yellow: 74
+    Grey: 73
+    Green: 73
+
+Column: size
+  Type: str
+  Missing: 0
+  Missing percentage: 0.0%
+  Unique values: 10
+  Most frequent values:
+    S: 129
+    Small: 116
+    XXL: 107
+    M: 103
+    One Size: 98
+
+Column: material
+  Type: str
+  Missing: 0
+  Missing percentage: 0.0%
+  Unique values: 13
+  Most frequent values:
+    Plastic: 97
+    Mixed Material: 86
+    Stainless Steel: 81
+    Aluminium: 81
+    Leather: 80
+
+Column: price
+  Type: int64
+  Missing: 0
+  Missing percentage: 0.0%
+  Unique values: 429
+  Numeric statistics:
+    mean: 12392.1
+    median: 4824.0
+    minimum: 99.0
+    maximum: 99899.0
+    standard_deviation: 18649.723
+
+Column: currency
+  Type: str
+  Missing: 0
+  Missing percentage: 0.0%
+  Unique values: 1
+  Most frequent values:
+    INR: 1000
+
+Column: rating
+  Type: float64
+  Missing: 0
+  Missing percentage: 0.0%
+  Unique values: 21
+  Numeric statistics:
+    mean: 4.017
+    median: 4.0
+    minimum: 3.0
+    maximum: 5.0
+    standard_deviation: 0.574
+
+Column: review_count
+  Type: int64
+  Missing: 0
+  Missing percentage: 0.0%
+  Unique values: 816
+  Numeric statistics:
+    mean: 1226.671
+    median: 1176.0
+    minimum: 10.0
+    maximum: 2498.0
+    standard_deviation: 727.424
+
+Column: stock
+  Type: int64
+  Missing: 0
+  Missing percentage: 0.0%
+  Unique values: 151
+  Numeric statistics:
+    mean: 74.634
+    median: 74.0
+    minimum: 0.0
+    maximum: 150.0
+    standard_deviation: 43.031
+
+Column: description
+  Type: str
+  Missing: 0
+  Missing percentage: 0.0%
+  Unique values: 1000
+  Most frequent values:
+    Nexon Smart Refrigerator is a refrigerator designed for portable and user friendly. It features nylon construction and a blue finish. It is suitable for everyday shopping, gifting, or regular personal use.: 1
+    EcoPlus Smart Digital Thermometer is a digital thermometer designed for compact and easy to carry. It features wood construction and a yellow finish. It is suitable for everyday shopping, gifting, or regular personal use.: 1
+    Pulse Premium Bed is a bed designed for modern design with practical features. It features plastic construction and a brown finish. It is suitable for everyday shopping, gifting, or regular personal use.: 1
+    Elite Plus Study Lamp is a study lamp designed for comfortable for everyday use. It features mesh construction and a orange finish. It is suitable for everyday shopping, gifting, or regular personal use.: 1
+    EverFit Essential Skipping Rope is a skipping rope designed for designed for long-term use. It features nylon construction and a grey finish. It is suitable for everyday shopping, gifting, or regular personal use.: 1
+
+Column: features
+  Type: str
+  Missing: 0
+  Missing percentage: 0.0%
+  Unique values: 12
+  Most frequent values:
+    energy efficient and reliable: 91
+    breathable and comfortable: 91
+    compact and easy to carry: 90
+    portable and user friendly: 88
+    comfortable for everyday use: 87
+
+Column: target_customer
+  Type: str
+  Missing: 0
+  Missing percentage: 0.0%
+  Unique values: 8
+  Most frequent values:
+    General: 146
+    Women: 141
+    Unisex: 135
+    Professionals: 123
+    Men: 121
+
+Column: use_case
+  Type: str
+  Missing: 0
+  Missing percentage: 0.0%
+  Unique values: 10
+  Most frequent values:
+    College: 113
+    Outdoor: 107
+    Personal Care: 106
+    Home: 104
+    Study: 102
+
+Column: warranty_months
+  Type: int64
+  Missing: 0
+  Missing percentage: 0.0%
+  Unique values: 5
+  Numeric statistics:
+    mean: 8.985
+    median: 6.0
+    minimum: 0.0
+    maximum: 24.0
+    standard_deviation: 8.322
+
+Column: seller
+  Type: str
+  Missing: 0
+  Missing percentage: 0.0%
+  Unique values: 5
+  Most frequent values:
+    MegaStore: 205
+    DirectSeller: 203
+    PrimeMart: 203
+    ShopKart: 199
+    RetailHub: 190
+
+RECOMMENDATIONS
+------------------------------------------------------------
+1. Column 'currency' has only one unique non-missing value. Consider excluding it from model training.
+============================================================

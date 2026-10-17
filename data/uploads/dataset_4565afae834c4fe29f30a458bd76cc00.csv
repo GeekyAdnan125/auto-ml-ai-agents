@@ -1,0 +1,9 @@
+student,age,study_hours,attendance,marks
+Amit,20,3.5,85.0,78.0
+Priya,21,5.0,92.0,88.0
+Rahul,20,2.0,65.0,55.0
+Neha,22,6.0,95.0,94.0
+Karan,21,,70.0,62.0
+Amit,20,3.5,85.0,78.0
+Sana,20,4.0,,81.0
+Adnan,22,18.0,0.0,

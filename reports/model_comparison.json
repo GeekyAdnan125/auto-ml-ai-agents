@@ -1,0 +1,32 @@
+{
+    "task": "regression",
+    "selection_metric": "r2",
+    "best_model": "random_forest",
+    "models": {
+        "linear_regression": {
+            "status": "success",
+            "metrics": {
+                "mae": 7899.0293,
+                "rmse": 11511.8884,
+                "r2": 0.4366
+            }
+        },
+        "ridge": {
+            "status": "success",
+            "metrics": {
+                "mae": 7798.7514,
+                "rmse": 11408.8379,
+                "r2": 0.4467
+            }
+        },
+        "random_forest": {
+            "status": "success",
+            "metrics": {
+                "mae": 5503.542,
+                "rmse": 10250.6629,
+                "r2": 0.5533
+            }
+        }
+    },
+    "model_path": "C:\\Users\\EJAJ ALAM\\OneDrive\\Desktop\\automl-ai-agents\\models\\best_model.joblib"
+}
